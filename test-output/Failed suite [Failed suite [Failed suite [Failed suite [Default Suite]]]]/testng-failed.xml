@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Default Suite]]]]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Selenium(failed)(failed)(failed)(failed)(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestNG.SauceLab">
+        <methods>
+          <include name="SaucLabLogin"/>
+          <include name="addtoCart"/>
+        </methods>
+      </class> <!-- TestNG.SauceLab -->
+    </classes>
+  </test> <!-- Selenium(failed)(failed)(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Default Suite]]]]] -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Default]]]]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Daefault test(failed)(failed)(failed)(failed)(failed)">
+    <parameter name="Browser" value="Chrome"/>
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestNG.SauceLab">
+        <methods>
+          <include name="SaucLabLogin"/>
+          <include name="addtoCart"/>
+          <include name="ATestloginsaucelab"/>
+        </methods>
+      </class> <!-- TestNG.SauceLab -->
+    </classes>
+  </test> <!-- Daefault test(failed)(failed)(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Default]]]]] -->

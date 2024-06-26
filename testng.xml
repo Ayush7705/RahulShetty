@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/00238S744/IdeaProjects/Selenium"><classes><class name="TestNG.GoogleTestDemo"><methods><include name="ATestGoogleSearch"/><include name="SendText"/></methods></class><class name="TestNG.SauceLab"><methods><include name="Testloginsaucelab"/><include name="addtoCart"/></methods></class></classes></test></suite>
